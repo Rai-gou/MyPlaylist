@@ -14,22 +14,22 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="28dp"
         android:rotation="360"
         android:text="@string/settings"
         android:textColor="@color/black"
         android:textSize="22sp"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="5dp"  />
+        tools:layout_editor_absoluteY="5dp" />
 
     <Switch
         android:id="@+id/switch1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="307dp"
+        android:layout_marginStart="291dp"
 
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="64dp"
         app:layout_constraintStart_toStartOf="@+id/textView3"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
@@ -38,7 +38,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="65dp"
+        android:layout_marginTop="61dp"
         android:text="@string/blacktheme"
         android:textColor="@color/black"
         android:textSize="16sp"
@@ -74,7 +74,7 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="42dp"
         android:text="@string/human"
         android:textColor="@color/black"
         android:textSize="16sp"
